@@ -1,0 +1,27 @@
+.navbar__item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__item ul li {
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.navbar__item ul li a {
+    padding: .5rem;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar__item ul li a:hover {
+    color: #090979;
+    font-weight: 600;
+}

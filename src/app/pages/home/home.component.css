@@ -1,0 +1,13 @@
+.home__container {
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home__container app-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
